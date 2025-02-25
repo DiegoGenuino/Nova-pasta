@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Estilização da tabela de consultas */
+  table {
+    width: 100%;
+    /* Define a largura total do container */
+    margin-top: 15px;
+    /* Adiciona um espaçamento acima */
+    border-collapse: collapse;
+    /* Remove espaços entre as bordas */
+}
+
+/* Estilização das células do cabeçalho da tabela */
+th,
+td {
+    border: 1px solid #ccc;
+    /* Borda cinza */
+    padding: 8px;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Centraliza o texto */
+}
+
+/* Fundo do cabeçalho da tabela */
+th {
+    background-color: #f0f0f0;
+}
