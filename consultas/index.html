@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas Agendadas</title>
+    <link rel="stylesheet" href="/consultas/style.css">
+</head>
+<body>
+    <header>
+        <h1>Consultas Agendadas</h1>
+    </header>
+    <div class="container">
+        <div class="botoes-download">
+            <button onclick="baixarJSON()">Baixar JSON</button>
+            <button onclick="baixarXML()">Baixar XML</button>
+        </div>
+        <div class="tabela-consultas">
+         
+            <table id="tabelaConsultas">
+                <thead>
+                    <tr>
+                        <th>Paciente</th>
+                        <th>Data</th>
+                        <th>Hora</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Consultas serão adicionadas aqui -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="/consultas/script.js"></script>
+</body>
+
+</html>
